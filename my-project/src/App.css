@@ -1,0 +1,201 @@
+.logo{
+  width: 100px;
+  height: 40px;
+  
+ 
+}
+#logo_picture{
+  width: 100px;
+  height:50px;
+}
+.nav{
+  margin-top: 10px;
+  display: flex;
+  width: 90%;
+  height:60px;
+  gap: 50px;
+  justify-content:space-between;
+  margin-left:20px;
+  margin-right: 20px;
+}
+.menu{
+
+  display:flex;
+  /* gap:50px */
+  padding:10px;
+  align-items: center;
+  justify-content: center;
+}
+#blue_button{
+background-color:blue;
+}
+#blue_button,#login_button{
+  width:100px;
+  height:40px;
+}
+#login_button{
+  border-style: none;
+  background-color:white;
+}
+
+a{
+  margin:25px;
+  font-weight: bolder;
+  text-decoration: none;
+  line-height: 1px;
+}
+.box1{
+  width:100%;
+  height:400px;
+ 
+  margin:auto;
+}
+.box1>img{
+
+  width:100%;
+  height:400px;
+
+}
+.box{
+  padding:10px;
+}
+.box2_heading{
+  width:400px; 
+ height:40px;
+ margin-left: auto;
+ margin-right: auto;
+ margin:0,0,16px;
+  font-size: 48px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+/* .box2{
+  
+} */
+.steps{
+  margin-top: 20px;
+  width:100%;
+  height:200px;
+  
+  display: flex;
+  /* grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto; */
+  justify-content: space-around;
+}
+.steps>div{
+ 
+  border:1px blue;
+}
+.steps>div>img{
+  margin:auto;
+}
+
+.steps>div>h1{
+  font-size: 24px;
+  line-height: 1.25em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+}
+.steps>div>p{
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.box3{
+  width:100%;
+  height:740px;
+  background-color: #fef9eb;
+  
+ 
+
+
+}
+
+.mealsbox{
+  margin-top: 10px;
+  width:60%;
+  height:89%;
+ 
+  margin :auto;
+
+}
+.meals{
+width:100%;
+height:80%;
+
+
+
+}
+
+.box3_heading{
+ 
+   text-align: center; 
+  
+
+  margin-bottom: 16px;
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.box3_description{
+text-align: center;
+/* line-height: 52px; */
+
+font-size: 18px;
+line-height: 1.33em;
+}
+
+.footer_main{
+  width:70%;
+  height:400px;
+  
+  display:flex;
+  margin:auto;
+  justify-content: space-evenly;
+  
+}
+
+.meals1{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+
+
+
+
+}
+
+
+
+
+.each_food_pic{
+
+/* width:100px;
+height:60%; */
+
+
+
+
+height: 192px;
+border-radius: 16px;
+-o-object-fit: cover;
+object-fit: cover;
+
+}
+
+.each_food_header{
+  color: #303030;
+  font-size: 16px;
+  font-weight: 700;
+
+
+
+}
+#footer_logo{
+
+  width: 100px;
+  height:50px;
+  margin-top: 20px;
+}
+
